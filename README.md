@@ -49,7 +49,7 @@ $ npm run seed:admin
 # O usuário criado terá as seguintes credenciais:
 {
   email: "admin@pixit.com.br",
-  password: "admin"
+  password: "adminpixit"
 }
 ```
 

@@ -268,7 +268,9 @@
 						}
 					}
 				}
-			},
+			}
+		},
+		"/users/{id}": {
 			"put": {
 				"tags": ["User"],
 				"summary": "Update a user",

@@ -5,7 +5,7 @@ import createConnection from '../index'
 async function create() {
 	const connection = await createConnection('localhost');
 
-	const password = await hash('admin', 8);
+	const password = await hash('adminpixit', 8);
 
 	await connection.query(
 		`insert into users (name, email, password, updated_at, created_at)
